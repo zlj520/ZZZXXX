@@ -488,17 +488,6 @@ var execution = "";
 var thread = null;
 Initialize();
 
-// 版本更新检查
-var apkurl = "https://gh-proxy.com/https://github.com/sec-an/Better-Auto-XXQG/releases/download/v2.2.0/v2.2.0.apk";
-var latest_version = "2.2.0";
-if (GLOBAL_CONFIG.get("NO_UPDATE", 0) && (app.versionName != latest_version)) {
-    ui.update.visibility = 0;
-    ui.update.setText("点击更新至最新版v" + latest_version);
-} else if (app.versionName != latest_version) {
-    checkversion();
-}
-
-
 // 创建选项菜单(右上角)
 ui.emitter.on("create_options_menu", menu => {
     menu.add("日志");
