@@ -14,7 +14,7 @@ ui.layout(
     <drawer id="drawer">
         <vertical>
             <appbar>
-                <toolbar id="toolbar" bg="#ff4fb3ff" title="强国助手"/>
+                <toolbar id="toolbar" bg="#ff4fb3ff" title="好好学习"/>
                 <tabs id="tabs" bg="#ff4fb3ff"/>
             </appbar>
             <viewpager id="viewpager">
@@ -503,8 +503,6 @@ if (GLOBAL_CONFIG.get("NO_UPDATE", 0) && (app.versionName != latest_version)) {
 ui.emitter.on("create_options_menu", menu => {
     menu.add("日志");
     menu.add("关于");
-    menu.add("Github");
-    menu.add("V2.33.0下载");
 });
 
 // 监听选项菜单点击
@@ -514,13 +512,7 @@ ui.emitter.on("options_item_selected", (e, item) => {
             app.startActivity("console");
             break;
         case "关于":
-            alert("关于", "强国助手 v" + latest_version);
-            break;
-        case "Github":
-            app.openUrl("https://github.com/sec-an/Better-Auto-XXQG");
-            break;
-        case "V2.33.0下载":
-            app.openUrl("https://android-apps.pp.cn/fs08/2021/12/28/3/110_f37c420b0944cb7b9f60a2ad9b5518d2.apk?yingid=web_space&packageid=500730793&md5=664bb7bdcae57be189fc86100f4371c4&minSDK=21&size=191654161&shortMd5=1fee0bd160d08108a9d9e5f4773ce741&crc32=3879122865&did=ad484a175e19d0928044435e24bf03cb");
+            alert("关于", "好好学习 v" + latest_version);
             break;
     }
     e.consumed = true;
@@ -608,7 +600,7 @@ ui.start.click(function () {
         return;
     }
     threads.start(function () {
-        execution = engines.execScript("强国助手", getScript(ui.script_chosen.getSelectedItemPosition()));
+        execution = engines.execScript("好好学习", getScript(ui.script_chosen.getSelectedItemPosition()));
     });
 });
 
