@@ -51,7 +51,7 @@ ui.layout(
                             <card w="*" h="70" margin="10 5" cardCornerRadius="2dp" cardElevation="1dp" foreground="?selectableItemBackground">
                                 <horizontal gravity="center_vertical">
                                     <vertical padding="10 8" h="auto" w="0" layout_weight="1">
-                                        <text text="代挂+V/Q:774245653" textColor="#222222" textSize="16sp" maxLines="1" />
+                                        <text text="代挂+V/Q：774245653" textColor="#222222" textSize="16sp" maxLines="1" />
                                     </vertical>
                                 </horizontal>
                             </card>
