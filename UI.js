@@ -864,10 +864,10 @@ function check_baidu_api() {
 
 function getScript(choice) {
     let url_prefix = [
-        'https://gh-proxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/',
-        "https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/",
-        'https://cdn.jsdelivr.net/gh/sec-an/Better-Auto-XXQG@main/',
-        'https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/',
+        'https://gh-proxy.com/https://raw.githubusercontent.com/zlj520/ZZZXXX/main/',
+        "https://ghproxy.com/https://raw.githubusercontent.com/zlj520/ZZZXXX/main/",
+        'https://cdn.jsdelivr.net/gh/zlj520/ZZZXXX@main/',
+        'https://raw.githubusercontent.com/zlj520/ZZZXXX/main/',
     ];
     for (var i = 0; i < url_prefix.length; i++) {
         try {

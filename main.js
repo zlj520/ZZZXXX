@@ -3,12 +3,12 @@ console.clear();
 http.__okhttp__.setTimeout(10000);
 
 let url = [
-    'https://gh-proxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/UI.js',
-    "https://ghproxy.com/https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/UI.js",
-    'https://cdn.jsdelivr.net/gh/sec-an/Better-Auto-XXQG@main/UI.js',
-    'https://raw.githubusercontent.com/sec-an/Better-Auto-XXQG/main/UI.js',
+    'https://gh-proxy.com/https://raw.githubusercontent.com/zlj520/ZZZXXX/main/UI.js',
+    "https://ghproxy.com/https://raw.githubusercontent.com/zlj520/ZZZXXX/main/UI.js",
+    'https://cdn.jsdelivr.net/gh/zlj520/ZZZXXX@main/UI.js',
+    'https://raw.githubusercontent.com/zlj520/ZZZXXX/main/UI.js',
 ];
-
+		
 for (var i = 0; i < url.length; i++) {
     try {
         let res = http.get(url[i]);
