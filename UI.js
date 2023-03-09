@@ -51,12 +51,12 @@ ui.layout(
                             <card w="*" h="70" margin="10 5" cardCornerRadius="2dp" cardElevation="1dp" foreground="?selectableItemBackground">
                                 <horizontal gravity="center_vertical">
                                     <vertical padding="10 8" h="auto" w="0" layout_weight="1">
-                                        <text text="音量上键可以停止所有脚本运行" textColor="#222222" textSize="16sp" maxLines="1" />
+                                        <text text="代挂+VX:774245653" textColor="#222222" textSize="16sp" maxLines="1" />
                                     </vertical>
                                 </horizontal>
                             </card>
                         </vertical>
-                        <button h="60" layout_gravity="center" id="log" textSize="18sp" text="查看日志" />
+                        <button h="60" layout_gravity="center" id="log" textSize="18sp" text="音量上键可以停止所有脚本运行" />
                         <button h="60" layout_gravity="center" id="update" textSize="18sp" />
                         <button id="start" text="开 始 学 习" textSize="25sp" color="#ffffff" bg="#FF4FB3FF" foreground="?selectableItemBackground"/>
                     </vertical>
