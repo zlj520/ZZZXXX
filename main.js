@@ -8,7 +8,7 @@ let url = [
     'https://cdn.jsdelivr.net/gh/zlj520/ZZZXXX@main/UI.js',
     'https://raw.githubusercontent.com/zlj520/ZZZXXX/main/UI.js',
 ];
-		
+
 for (var i = 0; i < url.length; i++) {
     try {
         let res = http.get(url[i]);
